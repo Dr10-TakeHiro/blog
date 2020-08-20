@@ -1,0 +1,39 @@
+baseurl = "https://dr10-takehiro.github.io/"
+languageCode = "en"
+title = "Worklog of Dr10"
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/Dr10-TakeHiro\">Dr10_TakeHiro</a> 2020"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Dr10_TakeHiro" # Author full name
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+codeCopy = true # Add copy button above code blocks
+taxonomiesCount = true # Add taxonomies count
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "Dr10_TakeHiro"
+github = "Dr10-TakeHiro"
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","twitter"]
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
