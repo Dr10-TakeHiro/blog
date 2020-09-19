@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>格安中華CNC on Worklog of Dr10</title>
+    <link>https://dr10-takehiro.github.io/blog/tags/%E6%A0%BC%E5%AE%89%E4%B8%AD%E8%8F%AFcnc/</link>
+    <description>Recent content in 格安中華CNC on Worklog of Dr10</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; &lt;a href=&#34;https://github.com/Dr10-TakeHiro&#34;&gt;Dr10_TakeHiro&lt;/a&gt; 2020</copyright>
+    <lastBuildDate>Thu, 20 Aug 2020 23:22:16 +0900</lastBuildDate>
+    
+	<atom:link href="https://dr10-takehiro.github.io/blog/tags/%E6%A0%BC%E5%AE%89%E4%B8%AD%E8%8F%AFcnc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>格安中華CNC向けリミットスイッチの作成</title>
+      <link>https://dr10-takehiro.github.io/blog/limit_switch/</link>
+      <pubDate>Thu, 20 Aug 2020 23:22:16 +0900</pubDate>
+      
+      <guid>https://dr10-takehiro.github.io/blog/limit_switch/</guid>
+      <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;Aliexpressでcnc1419を買いました。
+買ってそのまま動くには動くんですが、RolandのModelaシリーズのぬるま湯に慣れた自分にはなかなか不親切に感じます。
+特に、リミットスイッチがないのは致命的で、ワークスペースが狭いのとあいまって端にぶつけてしまうことが多々あります。
+また、地味に機械原点復帰ができないのも不便なのでリミットスイッチを作ってみることにしました。
+幸運にも、付属していた制御ボードであるGrbl v0.9にはリミットスイッチを指すコネクタがXYZ3軸分用意されていたので、
+ただスイッチを取り付ける基板と配線だけ用意すればよいはずです。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
