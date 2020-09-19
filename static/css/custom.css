@@ -1,0 +1,8 @@
+img{
+    max-height: 200px;
+}
+.content p{
+text-align: justify;
+text-justify: inter-character;
+letter-spacing: 0.1em;
+}

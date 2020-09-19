@@ -1,10 +1,11 @@
-baseurl = "https://dr10-takehiro.github.io/"
+baseurl = "https://dr10-takehiro.github.io/blog"
 languageCode = "en"
 title = "Worklog of Dr10"
 theme = "kiss"
 copyright = "&copy; <a href=\"https://github.com/Dr10-TakeHiro\">Dr10_TakeHiro</a> 2020"
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
+publishDir = "docs"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
@@ -37,3 +38,7 @@ tag ="tags"
 
 [blackfriday]
 hrefTargetBlank = true
+
+[params.sections_left]
+"/" = "Top"
+"/tags" = "Tags"
