@@ -6,6 +6,7 @@ copyright = "&copy; <a href=\"https://github.com/Dr10-TakeHiro\">Dr10_TakeHiro</
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
 publishDir = "docs"
+googleAnalytics = "UA-178597062-1"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
